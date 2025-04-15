@@ -14,6 +14,6 @@ describe("MeetingCard", () => {
       />
     )
 
-    expect(screen.getByText("Acme Corp")).toBeInTheDocument()
+    expect(screen.getByText("MR.0X - Acme Corp")).toBeInTheDocument()
   })
 })
