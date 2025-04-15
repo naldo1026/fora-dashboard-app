@@ -1,6 +1,8 @@
 // components
 import DashboardHeader from "../components/DashboardHeader"
 import MeetingList from "../components/MeetingList"
+import ViewingList from "../components/ViewingList"
+
 // styles
 import "../styles/dashboard.scss"
 
@@ -10,6 +12,7 @@ const Dashboard = () => {
       <DashboardHeader />
       <div className="dashboard-wrapper">
         <MeetingList />
+        <ViewingList />
       </div>
     </div>
   )
