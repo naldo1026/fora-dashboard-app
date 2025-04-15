@@ -4,3 +4,21 @@
   flex-direction: column;
   height: 100%;
 }
+
+.dashboard-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 0.9fr;
+  gap: 2rem;
+  margin-top: 2rem;
+
+  .left-content,
+  .right-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
+}

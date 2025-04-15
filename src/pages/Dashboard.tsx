@@ -10,9 +10,15 @@ const Dashboard = () => {
   return (
     <div className="dashboard-page">
       <DashboardHeader />
+
       <div className="dashboard-wrapper">
-        <MeetingList />
-        <ViewingList />
+        <div className="left-content">
+          <MeetingList />
+        </div>
+
+        <div className="right-content">
+          <ViewingList />
+        </div>
       </div>
     </div>
   )
