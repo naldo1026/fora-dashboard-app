@@ -6,6 +6,7 @@ import "../styles/layout.scss"
 
 // components
 import LeftSidePanel from "../components/LeftSidePanel"
+import RightSidePanel from "../components/RightSidePanel"
 
 const Layout = () => {
   return (
@@ -17,7 +18,9 @@ const Layout = () => {
         <Outlet />
       </main>
 
-      <aside className="right-panel">Right Panel</aside>
+      <aside className="right-panel">
+        <RightSidePanel />
+      </aside>
     </div>
   )
 }
