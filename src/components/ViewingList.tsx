@@ -36,7 +36,7 @@ const ViewingList = () => {
           key={viewing.id}
           roomId={viewing.id}
           companyName={viewing.potentialMember.companyName}
-          dateLabel={viewing.date}
+          date={viewing.date}
         />
       ))}
     </div>

@@ -7,7 +7,7 @@
         "companyName": "MEGA CORP",
         "customerName": "Ronaldo"
       },
-      "date": "2024-04-19T14:30:00Z"
+      "date": "Thursday 19th @07:30"
     },
     {
       "id": "01.1B",
@@ -16,7 +16,7 @@
         "companyName": "OMEGA INC",
         "customerName": "Sophia"
       },
-      "date": "2024-04-19T16:00:00Z"
+      "date": "Friday 20th @14:30"
     },
     {
       "id": "01.2C",
@@ -25,7 +25,7 @@
         "companyName": "WAYNE TECH",
         "customerName": "Bruce"
       },
-      "date": "2024-04-19T10:00:00Z"
+      "date": "Monday 22nd @15:30"
     }
   ]
 }
