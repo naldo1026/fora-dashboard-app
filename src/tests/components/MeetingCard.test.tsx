@@ -3,7 +3,7 @@ import "@testing-library/jest-dom"
 import MeetingCard from "../../components/MeetingCard"
 
 describe("MeetingCard", () => {
-  it("renders correctly", () => {
+  it("renders company name and the room id", () => {
     render(
       <MeetingCard
         roomId="MR.0X"
