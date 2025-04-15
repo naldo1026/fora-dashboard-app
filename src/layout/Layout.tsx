@@ -4,10 +4,15 @@ import { Outlet } from "react-router-dom"
 // scss styles
 import "../styles/layout.scss"
 
+// components
+import LeftSidePanel from "../components/LeftSidePanel"
+
 const Layout = () => {
   return (
     <div className="layout">
-      <aside className="left-panel">Left Panel</aside>
+      <aside className="left-panel">
+        <LeftSidePanel />
+      </aside>
       <main className="main-content">
         <Outlet />
       </main>
