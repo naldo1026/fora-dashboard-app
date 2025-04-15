@@ -1,10 +1,15 @@
+// icons
+import Bell from "../assets/icons/Notifications.svg"
+import Ticket from "../assets/icons/Ticket.svg"
+
 // styles
 import "../styles/rightSidePanel.scss"
+
 const RightSidePanel = () => {
   return (
-    <div>
-      <img src="" alt="" />
-      <img src="" alt="" />
+    <div className="right-icon-panel-wrapper">
+      <img src={Bell} alt="Notifications Icon" className="bell" />
+      <img src={Ticket} alt="Ticket Icon" className="ticket" />
     </div>
   )
 }
