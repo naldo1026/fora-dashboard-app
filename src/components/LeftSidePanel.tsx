@@ -16,27 +16,22 @@ const LeftSidePanel = () => {
   return (
     <div className="left-side-wrapper">
       <nav className="nav-icons">
-        <Link to="/">
-          <img src={Logo} alt="FORA Logo" />
-        </Link>
+        <img src={Logo} alt="FORA Logo" />
+
         <Link to="">
           <img src={Icon} alt="Home Dashboard" className="icon home-icon" />
         </Link>
         <Link to="/meeting-room-availability">
           <img src={Calendar} alt="Calendar" className="icon" />
         </Link>
-        <Link to="">
-          <img src={CheckIn} alt="QR Check In" className="icon" />
-        </Link>
+
+        <img src={CheckIn} alt="QR Check In" className="icon" />
       </nav>
 
       <div className="bottom-icons">
-        <Link to="">
-          <img src={Building} alt="Building" className="icon" />
-        </Link>
-        <Link to="">
-          <img src={LogOut} alt="Log Out" className="icon" />
-        </Link>
+        <img src={Building} alt="Building" className="icon" />
+
+        <img src={LogOut} alt="Log Out" className="icon" />
       </div>
     </div>
   )
