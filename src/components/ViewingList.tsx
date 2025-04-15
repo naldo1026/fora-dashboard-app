@@ -37,6 +37,8 @@ const ViewingList = () => {
 
       {!viewings.length && <div>Loading...</div>}
 
+      {/* add skeleton component if theres time */}
+
       {viewings.map((viewing) => (
         <ViewingCard
           key={viewing.id}

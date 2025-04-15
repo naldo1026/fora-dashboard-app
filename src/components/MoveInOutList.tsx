@@ -36,6 +36,8 @@ const MoveInOutList = () => {
 
       {!moves.length && <div>Loading...</div>}
 
+      {/* add skeleton component if theres time */}
+
       {moves.map((move, index) => (
         <MoveInOutCard
           key={index}

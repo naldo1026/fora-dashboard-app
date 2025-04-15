@@ -44,6 +44,8 @@ const MeetingList = () => {
 
       {!meetings.length && <div>Loading...</div>}
 
+      {/* add skeleton component if theres time */}
+
       {meetings.map((meeting) => (
         <MeetingCard
           key={meeting.id}
