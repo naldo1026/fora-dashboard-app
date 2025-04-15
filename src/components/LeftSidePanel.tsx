@@ -22,7 +22,7 @@ const LeftSidePanel = () => {
         <Link to="">
           <img src={Icon} alt="Home Dashboard" className="icon home-icon" />
         </Link>
-        <Link to="">
+        <Link to="/meeting-room-availability">
           <img src={Calendar} alt="Calendar" className="icon" />
         </Link>
         <Link to="">
