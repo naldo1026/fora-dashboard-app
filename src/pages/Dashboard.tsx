@@ -2,6 +2,7 @@
 import DashboardHeader from "../components/DashboardHeader"
 import MeetingList from "../components/MeetingList"
 import ViewingList from "../components/ViewingList"
+import MoveInOutList from "../components/MoveInOutList"
 
 // styles
 import "../styles/dashboard.scss"
@@ -18,6 +19,7 @@ const Dashboard = () => {
 
         <div className="right-content">
           <ViewingList />
+          <MoveInOutList />
         </div>
       </div>
     </div>

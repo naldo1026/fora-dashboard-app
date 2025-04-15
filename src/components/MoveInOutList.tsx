@@ -7,6 +7,9 @@ import MoveInOutCard from "./MoveInOutCard"
 // mocked data
 import data from "../mocks/moveInOut.json"
 
+// styles
+import "../styles/MoveInOutList.scss"
+
 type Move = {
   customers: {
     id: number
