@@ -14,7 +14,7 @@ Internal dashboard App — built with a scalable component architecture, respons
 - 🎨 **SCSS** (modular styling)
 - 🌍 **React Router DOM**
 - 📁 **Mock API** with local JSON
-- 🧪 **Jest** + **React Testing Library** (for testing)
+- 🧪 **Vitest** + **React Testing Library** (for testing)
 - 🚀 **Vercel** (for hosting)
 
 ---
