@@ -7,6 +7,7 @@ const DashboardHeader = () => {
       <h2>Hey, Joe</h2>
       <select className="building-select">
         <option>Stanley Building</option>
+        <option>Chancery House</option>
       </select>
     </div>
   )
