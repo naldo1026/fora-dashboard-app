@@ -31,12 +31,18 @@ const MeetingList = () => {
   const [meetings, setMeetings] = useState<Meeting[]>([])
 
   useEffect(() => {
-    setMeetings(meetingsData.meetings)
+    const timer = setTimeout(() => {
+      setMeetings(meetingsData.meetings)
+    }, 2000)
+
+    return () => clearTimeout(timer)
   }, [])
 
   return (
     <div className="meeting-list">
       <h3>Meetings</h3>
+
+      {!meetings.length && <div>Loading...</div>}
 
       {meetings.map((meeting) => (
         <MeetingCard

@@ -24,12 +24,18 @@ const ViewingList = () => {
   const [viewings, setViewings] = useState<Viewing[]>([])
 
   useEffect(() => {
-    setViewings(viewingsData.viewings)
+    const timer = setTimeout(() => {
+      setViewings(viewingsData.viewings)
+    }, 2000)
+
+    return () => clearTimeout(timer)
   }, [])
 
   return (
     <div className="viewing-list">
       <h3>Viewings</h3>
+
+      {!viewings.length && <div>Loading...</div>}
 
       {viewings.map((viewing) => (
         <ViewingCard

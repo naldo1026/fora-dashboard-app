@@ -23,12 +23,18 @@ const MoveInOutList = () => {
   const [moves, setMoves] = useState<Move[]>([])
 
   useEffect(() => {
-    setMoves(data.moveInMoveOut)
+    const timer = setTimeout(() => {
+      setMoves(data.moveInMoveOut)
+    }, 2000)
+
+    return () => clearTimeout(timer)
   }, [])
 
   return (
     <div className="move-list">
       <h3>Move in/out</h3>
+
+      {!moves.length && <div>Loading...</div>}
 
       {moves.map((move, index) => (
         <MoveInOutCard
