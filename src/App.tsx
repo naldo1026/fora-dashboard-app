@@ -1,18 +1,18 @@
 // react router
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
-// main dashboard component
+// layout
 import Layout from "./layout/Layout"
+
+// components
+import Dashboard from "../src/pages/Dashboard"
 
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route
-            index
-            element={<div>Hello Ronaldo This Is The Dashboard Page!</div>}
-          ></Route>
+          <Route index element={<Dashboard />}></Route>
         </Route>
       </Routes>
     </Router>
