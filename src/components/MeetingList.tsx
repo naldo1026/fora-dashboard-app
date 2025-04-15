@@ -39,7 +39,14 @@ const MeetingList = () => {
       <h3>Meetings</h3>
 
       {meetings.map((m) => (
-        <MeetingCard />
+        <MeetingCard
+          key={m.id}
+          roomId={m.meetingRoom.id}
+          companyName={m.customers.companyName}
+          startTime={m.startTime}
+          endTime={m.endTime}
+          qrCodeUrl={m.qrCodeUrl}
+        />
       ))}
     </div>
   )
