@@ -38,14 +38,14 @@ const MeetingList = () => {
     <div className="meeting-list">
       <h3>Meetings</h3>
 
-      {meetings.map((m) => (
+      {meetings.map((meeting) => (
         <MeetingCard
-          key={m.id}
-          roomId={m.meetingRoom.id}
-          companyName={m.customers.companyName}
-          startTime={m.startTime}
-          endTime={m.endTime}
-          qrCodeUrl={m.qrCodeUrl}
+          key={meeting.id}
+          roomId={meeting.meetingRoom.id}
+          companyName={meeting.customers.companyName}
+          startTime={meeting.startTime}
+          endTime={meeting.endTime}
+          qrCodeUrl={meeting.qrCodeUrl}
         />
       ))}
     </div>

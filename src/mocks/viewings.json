@@ -1,0 +1,31 @@
+{
+  "viewings": [
+    {
+      "id": "01.0X",
+      "potentialMember": {
+        "id": 1,
+        "companyName": "MEGA CORP",
+        "customerName": "Ronaldo"
+      },
+      "date": "2024-04-19T14:30:00Z"
+    },
+    {
+      "id": "01.1B",
+      "potentialMember": {
+        "id": 2,
+        "companyName": "OMEGA INC",
+        "customerName": "Sophia"
+      },
+      "date": "2024-04-19T16:00:00Z"
+    },
+    {
+      "id": "01.2C",
+      "potentialMember": {
+        "id": 3,
+        "companyName": "WAYNE TECH",
+        "customerName": "Bruce"
+      },
+      "date": "2024-04-19T10:00:00Z"
+    }
+  ]
+}
