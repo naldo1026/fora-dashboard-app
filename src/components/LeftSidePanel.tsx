@@ -14,21 +14,23 @@ import "../styles/leftSidePanel.scss"
 
 const LeftSidePanel = () => {
   return (
-    <nav className="left-side-nav">
-      <Link to="/">
-        <img src={Logo} alt="FORA Logo" />
-      </Link>
-      <Link to="">
-        <img src={Icon} alt="Home Dashboard" className="icon" />
-      </Link>
-      <Link to="">
-        <img src={Calendar} alt="Calendar" className="icon" />
-      </Link>
-      <Link to="">
-        <img src={CheckIn} alt="QR Check In" className="icon" />
-      </Link>
+    <div className="left-side-wrapper">
+      <nav className="nav-icons">
+        <Link to="/">
+          <img src={Logo} alt="FORA Logo" />
+        </Link>
+        <Link to="">
+          <img src={Icon} alt="Home Dashboard" className="icon home-icon" />
+        </Link>
+        <Link to="">
+          <img src={Calendar} alt="Calendar" className="icon" />
+        </Link>
+        <Link to="">
+          <img src={CheckIn} alt="QR Check In" className="icon" />
+        </Link>
+      </nav>
 
-      <div>
+      <div className="bottom-icons">
         <Link to="">
           <img src={Building} alt="Building" className="icon" />
         </Link>
@@ -36,7 +38,7 @@ const LeftSidePanel = () => {
           <img src={LogOut} alt="Log Out" className="icon" />
         </Link>
       </div>
-    </nav>
+    </div>
   )
 }
 
