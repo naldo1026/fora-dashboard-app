@@ -1,0 +1,22 @@
+{
+  "moveInMoveOut": [
+    {
+      "customers": {
+        "id": 1,
+        "companyName": "Uber Co",
+        "customerName": "Jimmy"
+      },
+      "date": "2024-04-19T09:00:00Z",
+      "status": "moving in"
+    },
+    {
+      "customers": {
+        "id": 2,
+        "companyName": "SpaceX",
+        "customerName": "Elon"
+      },
+      "date": "2024-04-19T11:30:00Z",
+      "status": "moving out"
+    }
+  ]
+}
