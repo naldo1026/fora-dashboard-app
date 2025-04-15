@@ -1,6 +1,9 @@
 // styles
 import "../styles/meetingCard.scss"
 
+// qr image thats white
+import QrIcon from "../assets/images/icons8-qr-50.png"
+
 type MeetingCardProps = {
   roomId: string
   companyName: string
@@ -26,7 +29,7 @@ const MeetingCard = ({
         </span>
       </div>
       <div className="card-right">
-        <img src={qrCodeUrl} alt="QR Code" />
+        <img src={QrIcon} alt={qrCodeUrl} />
       </div>
     </div>
   )
