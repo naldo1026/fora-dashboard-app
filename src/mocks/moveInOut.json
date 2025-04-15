@@ -6,7 +6,7 @@
         "companyName": "Uber Co",
         "customerName": "Jimmy"
       },
-      "date": "2024-04-19T09:00:00Z",
+      "date": "Thursday 19th",
       "status": "moving in"
     },
     {
@@ -15,7 +15,7 @@
         "companyName": "SpaceX",
         "customerName": "Elon"
       },
-      "date": "2024-04-19T11:30:00Z",
+      "date": "Friday 20th",
       "status": "moving out"
     }
   ]
