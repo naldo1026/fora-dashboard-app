@@ -1,5 +1,11 @@
 // react
-import { useState } from "react"
+import { useEffect, useState } from "react"
+
+// mocked data
+import meetingsData from "../mocks/meeting.json"
+
+// component
+import MeetingCard from "./MeetingCard"
 
 // styles
 import "../styles/meetingList.scss"
@@ -24,7 +30,19 @@ type Meeting = {
 const MeetingList = () => {
   const [meetings, setMeetings] = useState<Meeting[]>([])
 
-  return <></>
+  useEffect(() => {
+    setMeetings(meetingsData.meetings)
+  }, [])
+
+  return (
+    <div className="meeting-list">
+      <h3>Meetings</h3>
+
+      {meetings.map((m) => (
+        <MeetingCard />
+      ))}
+    </div>
+  )
 }
 
 export default MeetingList
