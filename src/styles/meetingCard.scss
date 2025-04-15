@@ -1,2 +1,39 @@
 .meeting-card {
+  margin-bottom: 0.5rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+
+  .card-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+
+    strong {
+      font: normal normal bold 16px/22px Helvetica Neue;
+      color: #545f71;
+      opacity: 1;
+    }
+
+    span {
+      color: #545f71;
+      opacity: 1;
+      font: normal normal normal 16px/22px Helvetica Neue;
+    }
+  }
+
+  .card-right {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 32px;
+      height: 32px;
+      object-fit: contain;
+    }
+  }
 }
