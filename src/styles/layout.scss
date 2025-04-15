@@ -1,13 +1,15 @@
 .layout {
   display: grid;
-  grid-template-columns: 80px 1fr 80px;
+  grid-template-columns: 80px 1fr 70px;
   height: 100vh;
-  width: 100vw;
+  width: 99vw;
 
   .left-panel {
     background: #f9f9f9;
     padding: 1rem;
     border-right: 2px solid #eeeeee;
+    min-height: 100vh;
+    height: 100%;
   }
 
   .main-content {
@@ -20,6 +22,8 @@
     background: #f9f9f9;
     padding: 1rem;
     border-left: 2px solid #eeeeee;
+    min-height: 100vh;
+    height: 100%;
   }
 
   @media (max-width: 1024px) {
