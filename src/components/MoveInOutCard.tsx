@@ -1,4 +1,5 @@
 // styles
+import "../styles/moveInOutCard.scss"
 
 // icons
 import ArrowIcon from "../assets/icons/arrow-right-336-svgrepo-com.svg"
@@ -7,7 +8,7 @@ type MoveInOutCardProps = {
   companyName: string
   customerName: string
   date: string
-  status: "moving in" | "moving out"
+  status: string
 }
 
 const MoveInOutCard = ({
