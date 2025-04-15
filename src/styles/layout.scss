@@ -13,9 +13,13 @@
   }
 
   .main-content {
+    padding: 1rem 5rem 2rem 5rem;
     background: #f9f9f9;
-    padding: 2rem;
     overflow-y: auto;
+
+    @media (max-width: 900px) {
+      padding: 2rem;
+    }
   }
 
   .right-panel {

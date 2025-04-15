@@ -1,12 +1,7 @@
 .dashboard-page {
-  padding: 1rem 5rem 2rem 5rem;
   display: flex;
   flex-direction: column;
   height: 100%;
-
-  @media (max-width: 900px) {
-    padding: 0;
-  }
 }
 
 .dashboard-wrapper {
