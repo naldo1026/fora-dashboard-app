@@ -11,6 +11,8 @@
     "test": "vitest"
   },
   "dependencies": {
+    "dayjs": "^1.11.13",
+    "luxon": "^3.6.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.5.0"

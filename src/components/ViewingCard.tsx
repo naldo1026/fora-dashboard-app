@@ -4,6 +4,9 @@ import "../styles/viewingCard.scss"
 // icons
 import ArrowIcon from "../assets/icons/arrow-right-336-svgrepo-com.svg"
 
+// utils
+import { formatTimestamp } from "../utils/formatTimestamp"
+
 type ViewingCardProps = {
   roomId: string
   companyName: string
@@ -17,7 +20,7 @@ const ViewingCard = ({ roomId, companyName, date }: ViewingCardProps) => {
         <strong>
           {roomId} - {companyName}
         </strong>
-        <span>{date}</span>
+        <span>{formatTimestamp(date)}</span>
       </div>
 
       <div className="card-right">
